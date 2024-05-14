@@ -1,0 +1,37 @@
+/* CSS/TrangChu.css */
+.container {
+    width: 80%; /* Độ rộng của container */
+    margin: 0 auto; /* Căn giữa container */
+}
+
+.content {
+    padding: 20px 0; /* Khoảng cách giữa phần header và phần content */
+}
+
+.courses-wrapper {
+    display: flex; /* Sử dụng flexbox để xếp các khóa học vào cùng một hàng */
+    justify-content: space-between; /* Căn các khóa học vào hai mép trái và phải của container */
+}
+
+.course-1 {
+    width: calc(33.33% - 20px); /* Độ rộng của mỗi khóa học, trừ đi khoảng cách giữa chúng */
+    margin-bottom: 20px; /* Khoảng cách dưới của mỗi khóa học */
+    box-sizing: border-box; /* Đảm bảo độ rộng và chiều cao của khóa học tính cả border và padding */
+    border: 1px solid #ccc; /* Định dạng border của khóa học */
+    padding: 10px; /* Khoảng cách bên trong của khóa học */
+}
+
+.course-1 img {
+    width: 100%; /* Chiều rộng của hình ảnh bằng với khóa học */
+    height: auto; /* Chiều cao của hình ảnh tự động điều chỉnh để giữ tỷ lệ */
+}
+
+.contentC h4 {
+    margin-top: 0; /* Xóa margin trên của tiêu đề */
+}
+
+.contentC p {
+    margin-bottom: 0; /* Xóa margin dưới của đoạn văn */
+}
+
+
